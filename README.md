@@ -1,70 +1,57 @@
-## Cloning the repo
+# Project README
 
-Clone the repository to your local machine:
-```
-git clone https://github.com/surajsomc/CodeCommune.git
-```
+## Tech Stack
 
-## How to run the backend?
+This project uses the following tech stack for the frontend:
 
+- **Node Types**: `@types/node@20.14.1`
+- **React DOM Types**: `@types/react-dom@18.3.0`
+- **React Types**: `@types/react@18.3.3`
+- **Class Variance Authority**: `class-variance-authority@0.7.0`
+- **Clsx**: `clsx@2.1.1`
+- **ESLint Config Next**: `eslint-config-next@14.2.3`
+- **ESLint**: `eslint@8.57.0`
+- **Framer Motion**: `framer-motion@11.2.10`
+- **Lucide React**: `lucide-react@0.383.0`
+- **Next Auth**: `next-auth@4.24.7`
+- **Next.js**: `next@14.2.3`
+- **PostCSS**: `postcss@8.4.38`
+- **React DOM**: `react-dom@18.3.1`
+- **React Hook Form**: `react-hook-form@7.51.5`
+- **React**: `react@18.3.1`
+- **Tailwind Merge**: `tailwind-merge@2.3.0`
+- **Tailwind CSS Animate**: `tailwindcss-animate@1.0.7`
+- **Tailwind CSS**: `tailwindcss@3.4.3`
+- **TypeScript**: `typescript@5.4.5`
 
-Navigate into the /backend directory of the project:
-```
-cd backend
-```
+## Installation
 
-Install all node dependencies:
-```
+To install the dependencies, run:
+
+```bash
 npm install
 ```
 
-Run the node server:
-```
+## Running the Project
+
+To start the development server, run:
+
+```bash
 npm run dev
 ```
 
+## Building the Project
 
-## Backend Branching Guide
+To build the project for production, run:
 
-Pull the latest changes from the remote repo:  
+```bash
+npm run build
 ```
-git pull origin backend
-```
-Create a new branch from backend branch and switch to the new branch:  
-```
-git checkout -b your_branch_name backend  
-```
--Make local changes and commit your code:  
-```
-git status  
-git add <file1> <file2> <etc>  
-git commit -m “Your commit message”
-```
-Push your changes to remote repo:  
-```
-git push origin your_branch_name
-```
-In GitHub, create a pull request so reviewers can review our changes  
 
+## Linting
 
-## Frontend Branching Guide
+To lint the code, run:
 
-Pull the latest changes from the remote repo:  
+```bash
+npm run lint
 ```
-git pull origin frontend
-```
-Create a new branch from frontend branch and switch to the new branch:  
-```
-git checkout -b your_branch_name frontend  
-```
--Make local changes and commit your code:  
-```
-git status  
-git add <file1> <file2> <etc>  
-git commit -m “Your commit message”
-```
-Push your changes to remote repo:  
-```
-git push origin your_branch_name
-```
-In GitHub, create a pull request so reviewers can review our changes
